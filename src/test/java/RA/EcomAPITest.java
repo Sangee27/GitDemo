@@ -49,7 +49,11 @@ public class EcomAPITest {
 	   System.out.print("xnjfngjgj");
 	   //System.out.println(loginRes.getUserID());
 	   
-	   
+	   System.out.print("111");
+	   System.out.print("222");
+	   System.out.print("333");
+	   System.out.print("444");
+
 	   //Create Product
 	   
 	    RequestSpecification addProductRequest = new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com").addHeader("Authorization", token).build();
