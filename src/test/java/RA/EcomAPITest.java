@@ -46,6 +46,7 @@ public class EcomAPITest {
 	   System.out.println(token);
 	   String userID = loginRes.getUserId();
 	   System.out.println(userID);
+	   System.out.print("xnjfngjgj");
 	   //System.out.println(loginRes.getUserID());
 	   
 	   
