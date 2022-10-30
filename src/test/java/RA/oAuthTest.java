@@ -49,7 +49,9 @@ public class oAuthTest
 		String access_token = js.get("access_token");
 		System.out.println(access_token);
 	
-		
+		System.out.println("111");
+		System.out.println("222");
+
 		String response = given().queryParams("access_token",access_token)
 		.when().get("https://rahulshettyacademy.com/getCourse.php").asString();
 		System.out.println(response);
